@@ -1,56 +1,44 @@
-Prime Wave Lab: Quick Start Guide
-=================================
+# Prime Wave Lab: Quick Start Guide
 
-Overview
---------
-
+## Overview
 Welcome to the **Prime Wave Lab**. This repository provides the computational framework to explore the "Event Horizon" where number theory bridges with the fundamental architecture of matter. By running these simulations, you can verify how prime distributions on a **Modulo 24** lattice generate the geometric curvature necessary for particle mass and spin.
 
-Prerequisites
--------------
+## Prerequisites
+To run these simulations, ensure you have Python 3.x installed along with the required numerical and visualization libraries:
 
-To run these simulations, ensure you have Python 3.x installed along with the required numerical and visualization libraries: `pip install numpy matplotlib seaborn`
+## The Simulation Suite
 
-The Simulation Suite
---------------------
+### 1. Visualizing the Base Space: `mod24_wheel.py`
+This script generates the **Modulo 24 Prime Sieve**. It demonstrates that all primes `p>3` are restricted to exactly 8 residues, which we define as the "topological floor plan" of the vacuum.
 
-### 1\. Visualizing the Base Space: `mod24_wheel.py`
-
-This script generates the **Modulo 24 Prime Sieve**. It demonstrates that all primes p>3 are restricted to exactly 8 residues, which we define as the "topological floor plan" of the vacuum.
-
-### 2\. Identifying Resonance Peaks: `resonance_bridge.py`
-
+### 2. Identifying Resonance Peaks: `resonance_bridge.py`
 This script maps **Rational Resonance** peaks against the Mod-24 wheel. It highlights the two critical **Koide Zones**:
 
--   **Zone L1 (Spokes 5 & 7)**: Associated with primary mass resonance.
+* **Zone L1 (Spokes 5 & 7)**: Associated with primary mass resonance.
+* **Zone L2 (Spokes 11 & 13)**: Known as the **Torsion Bridge**, where prime gaps induce maximum geometric curvature.
 
--   **Zone L2 (Spokes 11 & 13)**: Known as the **Torsion Bridge**, where prime gaps induce maximum geometric curvature.
-
-### 3\. Scanning the Event Horizon: `event_horizon.py`
-
+### 3. Scanning the Event Horizon: `event_horizon.py`
 Utilizing **Maxel Algebra**, this scanner measures the "Resonance Pressure" (intensity) of the prime field as it scales toward 106.
 
--   **The Flat Field Benchmark**: Without torsion, the resonance ratio between the zones remains approximately **1.0**, confirming the field is "flat" according to Dirichlet's Theorem.
+* **The Flat Field Benchmark**: Without torsion, the resonance ratio between the zones remains approximately **1.0**, confirming the field is "flat" according to Dirichlet's Theorem.
 
-### 4\. Bending the Field: `prime_torsion.py`
+### 4. Bending the Field: `prime_torsion.py`
+This simulation introduces the **Torsion Coefficient (\(\alpha\))** to model the **Berry Phase** (topological memory) acquired by waves traversing the modular cycle.
 
-This simulation introduces the **Torsion Coefficient (α)** to model the **Berry Phase** (topological memory) acquired by waves traversing the modular cycle.
+* **The Target**: Adjust \(\alpha\) to observe the emergence of the **Koide Ratio (2/3)**.
+* **Golden Torsion**: Our research identifies **\(\alpha \approx 0.495\)** as the high-precision value required to hit the 0.6667 target at the 107 prime limit.
 
--   **The Target**: Adjust α to observe the emergence of the **Koide Ratio (2/3)**.
+# Key Interpretations
 
--   **Golden Torsion**: Our research identifies **α≈0.495** as the high-precision value required to hit the 0.6667 target at the 107 prime limit.
+| Concept       | Prime Wave Equivalent               | Physical Manifestation         |
+|---------------|-------------------------------------|--------------------------------|
+| Cyclic Path   | The Modulo 24 wheel (1 to 25)      | Periodic nature of the vacuum  |
+| Curvature     | The non-linear "gaps" between primes | Gravity / Mass Density         |
+| Berry Phase   | The phase shift after one Mod-24 cycle | Particle Spin               |
+| Plaquette     | The triangular area between 3 prime nodes | Fundamental "unit" of matter |
 
-### Key Interpretations
+## The 720° Spin Derivation
 
-
-
-### The 720° Spin Derivation
-
-In these models, **Fermion Spin** is a direct consequence of prime topology. If a prime wave picks up a phase shift of π (180°) after one full rotation, it requires a second cycle---totalling **720°**---to return to its original orientation.
-
-* * * * *
+In these models, **Fermion Spin** is a direct consequence of prime topology. If a prime wave picks up a phase shift of \(\pi\) (180°) after one full rotation, it requires a second cycle—totalling \(720^\circ\)—to return to its original orientation.
 
 For a deeper dive into the methodology, see our **Wiki** and the **Glossary of Terms**. For formal collaboration, please refer to the **CONTRIBUTING.md** policy.
-
-* * * * *
-
