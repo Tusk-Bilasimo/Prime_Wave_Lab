@@ -26,6 +26,10 @@ Our simulations demonstrate that the **Koide Ratio ($Q \approx 2/3$)** is a topo
 
 
 
+### 3. Rational Prime-Mirror Resonance in Analog Circuits
+**Rational Prime-Mirror Resonance in Analog Circuits**: From Discrete Quantum Arithmetic to the Hardware Koide ConstantCurrent physics utilizes imaginary numbers (i) for oscillation, which we argue obscures foundational rational reality. We advocate for a discrete, rational alternative using maxel theory and harmonic analysis. This study tests the Prime-Mirror hypothesis and evaluates hardware coherence through the lens of PWT (Prime Wave Theory) and Koide-like mass relations.
+
+
 ---
 
 ## 🛠 Project Components
@@ -44,6 +48,9 @@ Our simulations demonstrate that the **Koide Ratio ($Q \approx 2/3$)** is a topo
 | `resonance_bridge.py` | Maps PWT nodal peaks against the Koide mass zones. |
 | `event_horizon.py` | Scales analysis up to $10^6$ primes to test field "flatness". |
 | `prime_torsion.py` | Models the geometric twist required to derive the $2/3$ ratio. |
+| `rational_prime_mirror-v4.py` | Model that validates rational 'quantum' framework where prime numbers order the microcosm (1/p) and macrocosm (p/1), with 1/1 as the transitional boundary. |
+| `hybrid_pwt_plaquette_bridge_v14.py` | A hybrid simulation, hardware-derived delays were used to compute torsion weighted densities (α). While idealized software reaches Qℓ = 0.667, the breadboard implementation stabilized at a distinct fixed point.. |
+
 
 ---
 
