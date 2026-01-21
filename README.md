@@ -65,6 +65,7 @@ We are currently refining the **$\alpha \approx 0.495$** coefficient to establis
 | `muon_torsion_engine.py` | This block of script shows how the Torsion Bridge handles the mass hierarchy shift. |
 | `tau_torsion_engine.py` | This code completes the set and calculates the final Torsion Bridge value for the Tau. |
 | `PWT_Final_Verification.py` | This Verification Script is designed to be our definitive numerical anchor. It consolidates every high-precision constant and formula we have derived into a single, executable record. Running this script will produce a "Clean Room" validation of the Unified Torsion Formula for our files. |
+| `high_precision-weak_sector.py` | This snippet shows how the Multipolar Engine predicts the Weak Mixing Angle $(\sin^2 \theta_W)$. |
 
 ---
 
