@@ -55,7 +55,15 @@ Our simulations demonstrate that the **Koide Ratio ($Q \approx 2/3$)** is a topo
 ---
 
 ## 🤝 Collaboration
-We are currently seeking to refine the **$\alpha \approx 0.495$** coefficient and establish its origin in first-principles topology. 
+We are currently refining the **$\alpha \approx 0.495$** coefficient to establish its origin in first-principles topology. 
+
+## 💻 Refined Simulations
+| Script | Purpose |
+| `multipolar_torsion_engine.py` | This Python module is designed to be integrated directly into the prime_torsion.py core of the Prime Wave Lab. It replaces the empirical constant α=0.495 with a deterministic Multipolar Torsion Engine derived from the constants of nature. |
+| `muon_torsion_engine.py` | This block of script shows how the Torsion Bridge handles the mass hierarchy shift. |
+| `tau_torsion_engine.py` | This code completes the set and calculates the final Torsion Bridge value for the Tau. |
+| `PWT_Final_Verification.py` | This Verification Script is designed to be our definitive numerical anchor. It consolidates every high-precision constant and formula we have derived into a single, executable record. Running this script will produce a "Clean Room" validation of the Unified Torsion Formula for our files. |
+
 
 **Join the search:**
 * See **[CONTRIBUTING.md](CONTRIBUTING.md)** for our mathematical standards.
