@@ -51,19 +51,22 @@ Our simulations demonstrate that the **Koide Ratio ($Q \approx 2/3$)** is a topo
 | `rational_prime_mirror-v4.py` | Model that validates rational 'quantum' framework where prime numbers order the microcosm (1/p) and macrocosm (p/1), with 1/1 as the transitional boundary. |
 | `hybrid_pwt_plaquette_bridge_v14.py` | A hybrid simulation, hardware-derived delays were used to compute torsion weighted densities (α). While idealized software reaches Qℓ = 0.667, the breadboard implementation stabilized at a distinct fixed point.. |
 
-
 ---
 
 ## 🤝 Collaboration
 We are currently refining the **$\alpha \approx 0.495$** coefficient to establish its origin in first-principles topology. 
 
+---
+
 ## 💻 Refined Simulations
 | Script | Purpose |
+| :--- | :--- |
 | `multipolar_torsion_engine.py` | This Python module is designed to be integrated directly into the prime_torsion.py core of the Prime Wave Lab. It replaces the empirical constant α=0.495 with a deterministic Multipolar Torsion Engine derived from the constants of nature. |
 | `muon_torsion_engine.py` | This block of script shows how the Torsion Bridge handles the mass hierarchy shift. |
 | `tau_torsion_engine.py` | This code completes the set and calculates the final Torsion Bridge value for the Tau. |
 | `PWT_Final_Verification.py` | This Verification Script is designed to be our definitive numerical anchor. It consolidates every high-precision constant and formula we have derived into a single, executable record. Running this script will produce a "Clean Room" validation of the Unified Torsion Formula for our files. |
 
+---
 
 **Join the search:**
 * See **[CONTRIBUTING.md](CONTRIBUTING.md)** for our mathematical standards.
