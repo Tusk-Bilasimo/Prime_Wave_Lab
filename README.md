@@ -45,7 +45,7 @@ The Torsion (α)(α) is derived from three discrete harmonics:
 ---
 
 ## Official Resources
-- **Latest Whitepaper**: The Multipolar Torsion Engine v1.2
+- **Latest Whitepaper**: [The Multipolar Torsion Engine v1.2](https://img1.wsimg.com/blobby/go/9e7c14d7-bed2-41da-a404-fe5da210ac73/downloads/3a8e14ba-7ff3-4672-9ecc-c49023d1c941/The_Multipolar_Torsion_Engine_v1_2.pdf?ver=1769088131259)
 - **Community**: [Follow the journey on pwt.life](https://pwt.life/blog)
 
 The Prime Wave Lab is a project of the PWT Team, dedicated to the exploration of Arithmetic Topology and Digital Physics.
