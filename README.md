@@ -27,10 +27,10 @@ We have successfully derived the **Torsion Coefficient** \((\alpha \approx 0.495
 
 ## Usage
 
-To verify the Unified Torsion Formula and the topological symmetry scaling on your local machine, run the newly released script:
+To verify the Unified Torsion Formula and the topological symmetry scaling on your local machine, run the Latest released script:
 
 ```bash
-python PWT_Final_Verification_v1_2.py
+PWT_Final_Verification_v1_3.py
 
 ```
 
